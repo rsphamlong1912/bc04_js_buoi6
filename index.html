@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bài tập JS buổi 6</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container mb-5">
+        <h2>Bài tập 1</h2>
+        <p>Tìm n nhỏ nhất để tổng: 1+2+..+n > 10000</p>
+        <button onclick= "timnNhoNhat()" class="btn btn-dark">Tính</button>
+        <span id="kq"></span>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Tính tổng luỹ thừa</h1>
+                        <h5>S(n)= x+ x^2+ ...+x^n</h5>
+                    </div>
+                    <div class="card-body">
+                            <div class="form-group">
+                            <label for="x">Nhập x:</label>
+                            <input type="number" class="form-control" id="x">
+                            </div>
+                            <div class="form-group">
+                                <label for="n">Nhập mũ n:</label>
+                                <input type="number" class="form-control" id="n">
+                            </div>
+                            <button onclick="tinhTongLuyThua()" class="btn btn-primary">Tính</button>
+                    </div>
+                    <div id="cardFooter" class="card-footer">
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><hr>
+    </div> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Tính giai thừa</h1>
+                    </div>
+                    <div class="card-body">
+                            <div class="form-group">
+                            <label for="n_">Nhập số n:</label>
+                            <input type="number" class="form-control" id="n_">
+                            </div>
+                            <button onclick="tinhGiaiThua()" class="btn btn-primary">Tính</button>
+                    </div>
+                    <div id="cardFooter2" class="card-footer">
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><hr>
+    </div> 
+    <div class="container">
+        <h1>Đổi màu background</h1>
+        <div class="bg">Thẻ thứ 1</div>
+        <div class="bg">Thẻ thứ 2</div>
+        <div class="bg">Thẻ thứ 3</div>
+        <div class="bg">Thẻ thứ 4</div>
+        <div class="bg">Thẻ thứ 5</div>
+        <div class="bg">Thẻ thứ 6</div>
+        <div class="bg">Thẻ thứ 7</div>
+        <div class="bg">Thẻ thứ 8</div>
+        <div class="bg">Thẻ thứ 9</div>
+        <div class="bg">Thẻ thứ 10</div>
+        <button onclick="changeBackgroud()" class="btn btn-primary">Đổi màu</button>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="baitap1.js"></script>
+    <script src="baitap2.js"></script>
+    <script src="baitap3.js"></script>
+    <script src="baitap4.js"></script>
+  </body>
+</html>
